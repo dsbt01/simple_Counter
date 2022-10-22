@@ -1,14 +1,14 @@
 import React from "react";
-import SimpleCounter  from "./SimpleCounter/SimpleCounter.jsx";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import SimpleCounter from "./SimpleCounter/SimpleCounter.jsx";
 
 //create your first component
 const Home = () => {
-	return (
-		<SimpleCounter />
-	);
+  return (
+    <div className="row">
+      <SimpleCounter text="1" />
+      <SimpleCounter text="2" />
+    </div>
+  );
 };
 
 export default Home;
