@@ -2,10 +2,15 @@ import React from "react";
 import SimpleCounter from "./SimpleCounter/SimpleCounter.jsx";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="row">
-      <SimpleCounter text="1" />
+      <SimpleCounter
+        digitOne={props.digitOne}
+        digitTwo={props.digitTwo}
+        digitThree={props.digitThree}
+        digitFour={props.digitFour}
+      />
     </div>
   );
 };

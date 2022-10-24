@@ -9,10 +9,10 @@ const SimpleCounter = (props) => {
         <div className="calendar">
           <i className="far fa-clock" />
         </div>
-        <div className="digitFour">{props.text}</div>
-        <div className="digitThree">{props.text}</div>
-        <div className="digitTwo">{props.text}</div>
-        <div className="digitOne">{props.text}</div>
+        <div className="digitFour">{props.digitFour}</div>
+        <div className="digitThree">{props.digitThree}</div>
+        <div className="digitTwo">{props.digitTwo}</div>
+        <div className="digitOne">{props.digitOne}</div>
       </div>
     </div>
   );
